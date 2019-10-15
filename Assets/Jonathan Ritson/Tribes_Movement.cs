@@ -5,15 +5,14 @@ using UnityEngine;
 public class Tribes_Movement : MonoBehaviour
 {
     private Rigidbody RB;
-    private float speed = 20;
-    private float lookSpeed = 3;
+    public float editablespeed = 20;
+    public float lookSpeed = 3;
     private Vector2 rotation = Vector2.zero;
-
+    private bool timeup;
 
     // just observation variables
-    public float overallspeed;
-    public float targetTime;
-    private bool timeup;
+    private float overallspeed;
+    private float targetTime;
 
     // Start is called before the first frame update
     void Start()
@@ -39,7 +38,7 @@ public class Tribes_Movement : MonoBehaviour
 
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
-        RB.AddRelativeForce(new Vector3(moveHorizontal, 0.0f, moveVertical) * speed);
+        RB.AddRelativeForce(new Vector3(moveHorizontal, 0.0f, moveVertical) * editablespeed);
 
         #endregion
 
