@@ -120,6 +120,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &41390861
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,6 +595,9 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0caed2329b1ff545b145d48d6ef85d7, type: 3}
 --- !u!1 &340517328
+=======
+--- !u!1 &1297811782
+>>>>>>> parent of c97de1d... Updated Scene
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -765,6 +769,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!4 &588825348 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400794, guid: a0caed2329b1ff545b145d48d6ef85d7,
@@ -2056,3 +2061,5 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2141560896}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of c97de1d... Updated Scene
